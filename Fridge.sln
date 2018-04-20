@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fridge", "Fridge\Fridge.csproj", "{76579351-8292-4811-BFC2-B020E895053D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fridge", "Fridge\Fridge.csproj", "{76579351-8292-4811-BFC2-B020E895053D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fridge.Messaging", "Fridge.Messaging\Fridge.Messaging.csproj", "{8F8624C7-AF31-408B-8121-FCCB1CD0E1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fridge.Messaging.Tests", "Fridge.Messaging.Tests\Fridge.Messaging.Tests.csproj", "{A1DFBBB9-1C89-4C36-AE69-4AAA15108A74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{76579351-8292-4811-BFC2-B020E895053D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76579351-8292-4811-BFC2-B020E895053D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76579351-8292-4811-BFC2-B020E895053D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8624C7-AF31-408B-8121-FCCB1CD0E1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8624C7-AF31-408B-8121-FCCB1CD0E1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8624C7-AF31-408B-8121-FCCB1CD0E1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8624C7-AF31-408B-8121-FCCB1CD0E1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DFBBB9-1C89-4C36-AE69-4AAA15108A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DFBBB9-1C89-4C36-AE69-4AAA15108A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DFBBB9-1C89-4C36-AE69-4AAA15108A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DFBBB9-1C89-4C36-AE69-4AAA15108A74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
